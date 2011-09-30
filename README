@@ -1,0 +1,9 @@
+MapIt launches a browser pointed to maps.google.com with whatever text is in your clipboard when you run it.
+
+This way, you can copy an address from an email or web page, and (in Windows) hit Win+R, type "mapit" and then a Google Map of the address will automatically open up.
+
+The clipboard functionality comes from my other project pyperclip.py https://github.com/asweigart/pyperclip
+
+Works on Python 2 and Python 3. Works on Windows, and should work on Mac and Linux as well.
+
+You can also run "mapit.py <enter address here>" from the command line, rather than use the clipboard.
